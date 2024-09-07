@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; 
+    color: #2e7d32; 
+    margin: 0;
+    padding: 0;
+}
+
+header#main-header {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header#main-header h1 {
+    font-size: 3em;
+}
+
+header#main-header h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+/* Sección de sinopsis */
+section#sinopsis {
+    padding: 20px;
+}
+
+section#sinopsis h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #2e7d32;
+    padding-bottom: 10px;
+}
+
+section#sinopsis p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo de la seccion de personajes */
+section#personajes {
+    padding: 20px;
+    background-color: white;
+}
+
+section#personajes h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #2e7d32;
+    padding-bottom: 10px;
+}
+
+div.personaje {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #c8e6c9;
+    border: 1px solid #2e7d32;
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+div.personaje::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.personaje h3 {
+    font-size: 1.5em;
+    color: #1b5e20;
+    margin-top: 0; 
+}
+
+div.personaje p {
+    font-size: 1.1em;
+    line-height: 1.4;
+    text-align: justify;
+    margin-top: 5px; 
+}
+
+.personaje-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+/* Pie de página */
+footer#main-footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
